@@ -1,0 +1,13 @@
+{
+    "Name": "Base64 encode/decode",
+    "Method": ["GET", "POST"],
+    "Body": {
+        "op": "encode|decode (default: decode)",
+        "index table": "standard (default: standard)",
+        "input": "SGVsbG8sIFdvcmxkIQ=="
+    },
+    "Return": {
+        "input": "SGVsbG8sIFdvcmxkIQ==",
+        "output": "Hello, World!"
+    }
+}
